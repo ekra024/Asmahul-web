@@ -18,13 +18,13 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="bg-gray-900 text-gray-100 shadow-md fixed w-11/12 mx-auto z-50">
+    <nav className="bg-gray-900 mx-auto w-full text-gray-100 shadow-md fixed z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
           <div className="shrink-0">
             <Link to="/" className="text-2xl font-bold text-white">
-             AsMaHuL HusNa 
+             Asmahul Husna 
             </Link>
           </div>
 
