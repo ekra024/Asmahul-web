@@ -5,11 +5,11 @@ import { FiMenu, FiX } from 'react-icons/fi';
 
 
 const navItems = [
-  { path: "about", label: "About" },
-  { path: "skills", label: "Skills" },
-  { path: "education", label: "Education" },
-  { path: "portfolio", label: "Projects" },
-  { path: "contact", label: "Contact" },
+  { path: "#about", label: "About" },
+  { path: "#skills", label: "Skills" },
+  { path: "#education", label: "Education" },
+  { path: "#portfolio", label: "Projects" },
+  { path: "#contact", label: "Contact" },
 ];
 
 const Navbar = () => {
@@ -33,7 +33,7 @@ const Navbar = () => {
           <div className="hidden md:flex space-x-8">
             {
             navItems.map((item) => <li className='list-none font-semibold transition-colors hover:text-indigo-400' key={item.path}>
-              <Link to={item.path} smooth={true} duration={500} offset={-80} />{item.label}
+              <a href={item.path} >{item.label} </a>
             </li> )
           }
           </div>
