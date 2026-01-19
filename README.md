@@ -1,16 +1,91 @@
-# React + Vite
+# 🌑 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **developer portfolio** built with React to showcase my skills, projects, and experience.  
+Designed with a **dark, minimal UI** and smooth interactions from an interviewer’s perspective.
 
-Currently, two official plugins are available:
+🔗 **Live Site:** https://asmahulweb.netlify.app/  
+📁 **GitHub Repo:** https://github.com/ekra024/Asmahul-web
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
+- **React.js**
+- **React Router (Single Page Scroll Navigation)**
+- **Tailwind CSS**
+- **DaisyUI**
+- **React Icons**
+- **Typewriter Effect**
 
-## Expanding the ESLint configuration
+### Tools
+- **Git & GitHub**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Deployment
+- **Netlify**
+
+---
+
+## ✨ Features
+
+- 🌙 **Dark & Dim Modern UI**
+- 🧭 **Single Page Smooth Scroll Navigation**
+- 🧑‍💻 **Hero Section with Typewriter Effect**
+- 🛠️ **Skills Section with Icons**
+- 🎓 **Education Timeline (SSC → HSC → B.Sc.)**
+- 📂 **Projects Section with Live & GitHub Links**
+- 📬 **Contact Form with Social Links**
+- 📱 **Fully Responsive Design**
+- ⚡ **Optimized for Performance**
+
+---
+
+## 🧩 Sections Overview
+
+### 🔹 Hero Section
+- Personal introduction
+- Typewriter animation
+- CV download & project navigation buttons
+
+### 🔹 Skills
+- Frontend, Backend & Tools
+- Icons for each technology
+- Clean grid layout on dark background
+
+### 🔹 Education
+- Timeline-style layout
+- SSC, HSC & B.Sc.
+- GPA / Honors badges
+- Scroll-based animations
+
+### 🔹 Projects
+Each project includes:
+- Project thumbnail image
+- Live website link
+- GitHub client repository
+- GitHub server repository
+- Short, clear description
+
+**Projects:**
+- 🐾 PetBuddy
+- 🍽️ TastyShare
+- 🎬 MovieTime
+- 🌿 EcoAdventure
+
+### 🔹 Contact
+- Friendly message for collaboration
+- GitHub & LinkedIn links
+- Contact form (Name, Email, About, Message)
+
+### 🔹 Footer
+- Interviewer-focused summary
+- Clean and professional layout
+
+---
+
+## 📦 Installation & Setup
+
+Clone the repository:
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
