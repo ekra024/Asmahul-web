@@ -4,12 +4,19 @@ import Skills from './Skills';
 import Education from './Education';
 import Projects from './Projects';
 import Contact from './Contact';
+import SocialLinks from './SocialLinks';
 
 const Home = () => {
   return (
     <div className=''>
-      <section id="about">
+      <section id="hero">
         <HeroSection />
+      </section>
+      <section id="links">
+        <SocialLinks />
+      </section>
+      <section id="about">
+        
       </section>
       <section id="skills">
         <Skills />

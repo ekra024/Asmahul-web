@@ -1,6 +1,7 @@
 import React from "react";
 import { FiDownload, FiArrowRight } from "react-icons/fi";
-import myPic from "../../assets/react.svg";
+import myPic from "/Asmahul Husan.png";
+import cv from "/Asmahul Husna.pdf"
 import Typewriter from "typewriter-effect";
 
 const HeroSection = () => {
@@ -14,8 +15,10 @@ const HeroSection = () => {
               options={{
                 strings: [
                   "Hi, I'm Asmahul Husna",
-                  "I'm Frontend Developer",
-                  "I love to build Website",
+                  "MERN stack Developer",
+                  "Web Developer",
+                  "Backend Developer",
+                  "Problem Solver"
                 ],
                 autoStart: true,
                 loop: true,
@@ -32,7 +35,7 @@ const HeroSection = () => {
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mt-4 justify-center md:justify-start">
             <a
-              href="/path-to-your-cv.pdf"
+              href={cv}
               download
               className="btn btn-primary flex items-center gap-2 px-6 py-3 text-white bg-indigo-600 hover:bg-indigo-700 border-none"
             >
