@@ -7,7 +7,7 @@ import { FiMenu, FiX } from 'react-icons/fi';
 const navItems = [
   {path: "#hero" , label: "Home" },
   {path:"#links", label:"Links"},
-  { path: "#about", label: "About" },
+  { path: "#about", label: "About Me" },
   { path: "#skills", label: "Skills" },
   { path: "#education", label: "Education" },
   { path: "#portfolio", label: "Projects" },
