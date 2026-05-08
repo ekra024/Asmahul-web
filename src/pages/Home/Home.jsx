@@ -5,6 +5,7 @@ import Education from './Education';
 import Projects from './Projects';
 import Contact from './Contact';
 import SocialLinks from './SocialLinks';
+import AboutMe from './AboutMe';
 
 const Home = () => {
   return (
@@ -16,7 +17,7 @@ const Home = () => {
         <SocialLinks />
       </section>
       <section id="about">
-        
+        <AboutMe />
       </section>
       <section id="skills">
         <Skills />

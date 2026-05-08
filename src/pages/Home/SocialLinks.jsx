@@ -69,7 +69,11 @@ const SocialLinks = () => {
 ];
   return (
     <section className="py-10 pt-20">
-      <h2 className="text-4xl font-bold text-white text-center mb-12">Social Links</h2>
+      <div className="text-center mb-14">
+          <p className="text-xs uppercase tracking-[0.2em] text-gray-500 mb-3">Connection build Here</p>
+          <h2 className="text-4xl font-bold text-white">Links & Connection</h2>
+          <div className="mt-4 mx-auto w-16 h-0.5 bg-linear-to-r from-blue-500 to-teal-400 rounded-full" />
+        </div>
       <div className="flex flex-wrap gap-3">
         {socialLinks.map((link) => (
             <a 
