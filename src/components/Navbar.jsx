@@ -52,7 +52,7 @@ const Navbar = () => {
         <div className="md:hidden bg-gray-900 text-gray-100 px-4 pt-2 pb-4 space-y-2">
           {
             navItems.map((item) => <li className='list-none font-semibold transition-colors hover:text-indigo-400' key={item.path}>
-              <Link to={item.path} smooth={true} duration={500} offset={-80} />{item.label}
+              <a href={item.path} >{item.label} </a>
             </li> )
           }
         </div>
