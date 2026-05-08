@@ -1,5 +1,5 @@
 import { FaCode, FaLayerGroup, FaCube, FaBrain,FaPuzzlePiece } from 'react-icons/fa';
-import myPic from "../../../public/Work.png"
+import myPic from "/Work.png"
 import { FaPersonCirclePlus } from 'react-icons/fa6';
 
 

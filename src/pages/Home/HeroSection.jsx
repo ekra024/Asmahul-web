@@ -43,7 +43,7 @@ const HeroSection = () => {
               Download CV
             </a>
             <a
-              href="#projects"
+              href="#portfolio"
               className="btn btn-outline flex items-center gap-2 px-6 py-3 border-indigo-600 text-indigo-600 hover:bg-indigo-600 hover:text-white"
             >
               See Projects
